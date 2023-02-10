@@ -24,7 +24,7 @@
 - [x] File Store
 ## Variables
 
-Read [this](https://telegram.dog/LazyDevelopers/8) before you start messing up with your edits.
+Read [this](https://telegram.dog/akimaxmovies1) before you start messing up with your edits.
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -103,7 +103,7 @@ python3 bot.py
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/akimaxmovies1)
 
 ## Credits 
-* [![LazyPrincess-Devs](https://img.shields.io/static/v1?label=AkImaxs&message=devs&color=critical)](https://telegram.dog/akimaxmovies1)
+* [![LazyPrincess-Devs](https://img.shields.io/static/v1?label=AkImax&message=devs&color=critical)](https://telegram.dog/akimaxmovies1)
 
 
 ## Thanks to 
@@ -118,5 +118,5 @@ python3 bot.py
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/LazyDeveloperr/LazyPrincess/blob/master/LICENSE)
+Licensed under [GNU AGPL 2.0.](https://github.com/Kunaldvewe232/Obli_Master/blob/main/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
