@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/LazyDeveloperr/LazyPrincess/blob/master/assets/Obli_Master.jpg" alt="Obli Master Logo">
+  <img src="https://github.com/Kunaldvewe232/Obli_Master/blob/main/assets/obli_master.jpg" alt="Obli Master Logo">
 </p>
 <h1 align="center">
   <b> Obli Master BOT </b>
