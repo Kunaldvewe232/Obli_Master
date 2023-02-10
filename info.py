@@ -11,10 +11,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('BAFN200AByliJ5XijOxLL47FSpctPxIk8EHloEcxYfjgrexr6-SpbfrWqztbd0o6QB_LEocroL6yBxDnIQilaJK32lp7ayQzOe2v0swPdxjTphyW3YNHnGpT5hPi3LTJSRw5ohtfqkq7b1fq1rDgLGMf1j5PlbGCPM5a3Q0Xwc6DMBDPq7YJ0bV9I17w88HyKZOsMCyxpSK1KMgmL7-T1PL7kX9rWuPYKAdKdHUulB_GTaAk6rXK7XsJjQGGlDV68PpMuRfubCSUXGzSCccfGyEcAKimCIPW4Ww5skpLv6mu_y6kRGEaz2hJ49ylw-IIetaLME4dhaCt5ITwzvSoWiJJceclKAAAAAFNQAAoAA', 'Media_search')
-API_ID = int(environ['21879629'])
-API_HASH = environ['dcb6bfd6d51a8ff5f6aadb01b9fdd11b']
-BOT_TOKEN = environ['6135992497:AAHkETqeVK7q7cvkDLL_sWMAXVWrPlVo99U']
+SESSION = environ.get('SESSION', 'ObliMaster')
+API_ID = int(environ.get['API_ID', '21879629'])
+API_HASH = environ.get['API_HASH', 'dcb6bfd6d51a8ff5f6aadb01b9fdd11b']
+BOT_TOKEN = environ.get['BOT_TOKEN', "6135992497:AAHkETqeVK7q7cvkDLL_sWMAXVWrPlVo99U"]
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -26,15 +26,15 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001519788177').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5591007272').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('-1001519788177')
-auth_grp = environ.get('-1001770256485')
+auth_channel = environ.get('-1001588302548')
+auth_grp = environ.get('')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI',"mongodb+srv://soekksielks555:soekksielks555@cluster0.bi0jr0g.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
-COLLECTION_NAME = environ.get('Dont Join', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
