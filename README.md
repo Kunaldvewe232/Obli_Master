@@ -2,7 +2,7 @@
   <img src="https://github.com/LazyDeveloperr/LazyPrincess/blob/master/assets/Obli_Master.jpg" alt="Obli Master Logo">
 </p>
 <h1 align="center">
-  <b> Lazy Princess BOT </b>
+  <b> Obli Master BOT </b>
 </h1>
 
 ## ⚡️Features
