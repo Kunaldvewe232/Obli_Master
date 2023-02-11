@@ -13,8 +13,8 @@ def is_enabled(value, default):
 # Bot information
 SESSION = environ.get('SESSION', 'forward')
 API_ID = int(environ{'21879629'})
-API_HASH = environ['API_HASH', 'dcb6bfd6d51a8ff5f6aadb01b9fdd11b']
-BOT_TOKEN = environ['BOT_TOKEN', "6135992497:AAHkETqeVK7q7cvkDLL_sWMAXVWrPlVo99U"]
+API_HASH = environ['dcb6bfd6d51a8ff5f6aadb01b9fdd11b']
+BOT_TOKEN = environ['6135992497:AAHkETqeVK7q7cvkDLL_sWMAXVWrPlVo99U']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
