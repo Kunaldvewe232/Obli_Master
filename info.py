@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'forward')
-API_ID = int(environ.get['21879629'])
-API_HASH = environ['dcb6bfd6d51a8ff5f6aadb01b9fdd11b']
-BOT_TOKEN = environ['6135992497:AAHkETqeVK7q7cvkDLL_sWMAXVWrPlVo99U']
+API_ID = int(environ.get('21879629'))
+API_HASH = os.environ['dcb6bfd6d51a8ff5f6aadb01b9fdd11b']
+BOT_TOKEN = os.environ['6135992497:AAHkETqeVK7q7cvkDLL_sWMAXVWrPlVo99U']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
